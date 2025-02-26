@@ -5,7 +5,7 @@ import math  # Import the math module to use cos and sin functions
 paraview.simple._DisableFirstRenderCameraReset()
 
 # Load the OpenFOAM data
-foamfoam = OpenFOAMReader(registrationName='foam.foam', FileName='C:\\Users\\Usama\\Desktop\\pipesim\\ico_175\\foam.foam')
+foamfoam = OpenFOAMReader(registrationName='foam.foam', FileName='C:5\\foam.foam')
 UpdatePipeline(time=4500.0, proxy=foamfoam)
 
 # Define the coordinates for each z-pencil in the first quadrant
